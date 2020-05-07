@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+ul li a:hover{
+    background-color: blue;
+    color: white;
+}
+ul li.active a{
+    background-color: blue;
+    color: white;
+}
+
+
+.logo img{
+    height: auto;
+    width: 150px;
+    position: absolute;
+    padding-right: 30px;
+  }
+  .main{
+      max-width: 1200px;
+      margin: auto;
+  }
+  .picture img{
+      margin:top;
+      
+      
+      
+      background-color: none;
+      width: 1500px;
+      padding: 20px 30px;
+     
+  }
+  .title{
+      position: absolute;
+     top: 70%;
+      left: 50%;
+      transform:translate(-50%,-50%) ;
+  }
+  .title h1{
+color: mediumblue;
+font-size: 60px;
+  }
+  .saylani{
+      position: absolute;
+      top: 75%;
+      left: 45%;
+      transform: translate(-50%,-50%);
+  }
+  .paragraph{
+      position: absolute;
+      top: 80%;
+      left: 20%;
+      font-size: 15px;
+     font-family: sans-serif;
+
+      text-decoration: black solid ;
+     
+      
+  }
+  .numbers{
+      position: absolute;
+      top: 115%;
+  }
+  .heading{
+      position: absolute;
+      top: 160%;
+      left: 30%;
+  }
+  .heading h1{
+     color: mediumblue;
+      font-size: 50px;
+
+  }
+  .heading img{
+      position: absolute;
+      left: 35%;
+  }
+  .images{
+      position: absolute;
+      top: 180%;
+  }
+  .projects h1{
+      position: absolute;
+      top: 235%;
+      left: 30%;
+      color: mediumblue;
+  }
+  .projects img{
+      position: absolute;
+      top: 240%;
+      left: 25%;
+  }
+  .gallery img{
+      position: absolute;
+      top: 250%;
+  }
+ .last{
+     position: absolute;
+     top: 300%;
+     background-color: gray;
+ }
+ .information{
+     position: absolute;
+     top: 310%;
+ }
+ 
